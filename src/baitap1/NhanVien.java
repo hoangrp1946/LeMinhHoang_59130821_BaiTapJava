@@ -67,8 +67,8 @@ public class NhanVien {
         return tongGio;
     }
     public void getThongTin(){
-        System.out.println("Ten nhan vien: "+ten);
-        System.out.println("\nTuoi nhan vien: "+tuoi);
+        System.out.println("Ten Nhan vien: "+ten);
+        System.out.println("\nTuoi Nhan vien: "+tuoi);
         System.out.println("\nDia chi: "+diaChi);
         System.out.println("\nTien luong: "+tienLuong);
         System.out.println("\nTong so gio lam: "+tinhThuong());
