@@ -1,21 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package baitap1;
 
 /**
  *
- * @author Pc
+ * @author FPT
  */
 public class BaiTap1Main {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args){
+        NhanVien nv1 = new NhanVien("Hiếu", 34, "Lào Cai", 500, 700);
+        NhanVien nv2 = new NhanVien("Đạt", 27, "Cà Mau", 400, 600);
+        System.out.println("Thong tin nhan vien 1: "); nv1.getThongTin();
+        System.out.println("Thong tin nhan vien 2: "); nv2.getThongTin();
     }
-    
 }
