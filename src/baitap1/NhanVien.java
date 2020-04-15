@@ -77,9 +77,9 @@ public class NhanVien {
         if(tongGio < 100)
             return 0;
         else if 
-            (tongGio >= 100 && tongGio < 200)
-            return (int) (tienLuong*0.1);
+            (tongGio >= 200)
             return (int) (tienLuong*0.2);
+            return (int) (tienLuong*0.1);
     }
 }
 

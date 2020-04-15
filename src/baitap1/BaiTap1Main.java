@@ -2,7 +2,7 @@ package baitap1;
 
 /**
  *
- * @author FPT
+ * @author Pc
  */
 public class BaiTap1Main {
     public static void main(String[] args){
