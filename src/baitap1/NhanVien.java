@@ -82,3 +82,4 @@ public class NhanVien {
             return (int) (tienLuong*0.2);
     }
 }
+
