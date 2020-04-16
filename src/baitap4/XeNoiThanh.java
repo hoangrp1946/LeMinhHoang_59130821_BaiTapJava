@@ -9,8 +9,7 @@ package baitap4;
  *
  * @author Pc
  */
-public class XeNoiThanh extends ChuyenXe{
-    
+public class XeNoiThanh extends ChuyenXe{   
     private String soTuyen;
     private double soKm;
     XeNoiThanh(String soTuyen, double soKm, String MSChuyen, String hoTenTX, String soXe, double doanhThu) {

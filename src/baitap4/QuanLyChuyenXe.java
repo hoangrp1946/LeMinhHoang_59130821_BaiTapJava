@@ -13,15 +13,12 @@ import java.util.List;
 
 public class QuanLyChuyenXe {
     
-    List<ChuyenXe> dsChuyenXe = new ArrayList<>();
-    
-    void themChuyenXe(ChuyenXe chuyenXe) {
-        
+    List<ChuyenXe> dsChuyenXe = new ArrayList<>();   
+    void themChuyenXe(ChuyenXe chuyenXe) {        
         dsChuyenXe.add(chuyenXe);
     }
     
-    void xuatDS() {
-        
+    void xuatDS() {      
         for(ChuyenXe chuyenXe: dsChuyenXe) {
             chuyenXe.xuat();
         }
