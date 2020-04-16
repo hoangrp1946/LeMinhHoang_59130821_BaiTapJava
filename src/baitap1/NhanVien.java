@@ -9,7 +9,7 @@ package baitap1;
  *
  * @author Pc
  */
-public class NhanVien {
+public class NhanVien{
     String ten;
     int tuoi;
     String diaChi;
@@ -32,8 +32,8 @@ public class NhanVien {
     }
 
     public int getTuoi() {
-        return tuoi;    }
-
+        return tuoi;    
+    }
 
     public String getDiaChi() {
         return diaChi;
@@ -66,20 +66,20 @@ public class NhanVien {
     public int getTongGio() {
         return tongGio;
     }
-    public void getThongTin(){
+    public void getThongTin() {
         System.out.println("Ten Nhan vien: "+ten);
         System.out.println("\nTuoi Nhan vien: "+tuoi);
         System.out.println("\nDia chi: "+diaChi);
         System.out.println("\nTien luong: "+tienLuong);
         System.out.println("\nTong so gio lam: "+tinhThuong());
     }
-     public int tinhThuong(){
+     public int tinhThuong() {
         if(tongGio < 100)
             return 0;
         else if 
             (tongGio >= 200)
-            return (int) (tienLuong*0.2);
-            return (int) (tienLuong*0.1);
+            return(int) (tienLuong*0.2);
+            return(int) (tienLuong*0.1);
     }
 }
 
